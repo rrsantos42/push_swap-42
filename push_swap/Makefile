@@ -2,14 +2,13 @@ NAME	= push_swap
 
 HEADER	= push_swap.h
 
-SRCS 	= $(wildcard *c)
+SRCS 	= $(wildcard *c) $(wildcard utilitis/*c)
 
 OBJS	= $(SRCS:c=o)
 
 CC		= gcc
 
-CFLAGS	= -Wall -Wextra -Werror -fsanitize=address -g
-
+CFLAGS	=
 RM		= rm -f
 
 LIBFT 	= libft/libft.a

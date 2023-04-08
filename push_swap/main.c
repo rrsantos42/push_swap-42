@@ -13,7 +13,29 @@
 #include "push_swap.h"
 
 
-int main(void)
+int main(int ac, char** av)
 {
+    t_listA *stackA;
+    t_listB *stackB;
 
+    stackB = malloc(sizeof (t_listB));
+    stackA = malloc(sizeof (t_listA));
+    stackA->preview = NULL;
+    createlist(ac, &stackA, av);
+
+    organiozelstA(&stackA);
+    organiozelstB(&stackB);
+    while (stackA->next)
+    {
+        printf("stack A->%d\n", stackA->value);
+        stackA = stackA->next;
+    }
+    while (stackB->next)
+    {
+        printf("stack B->%d\n", stackB->value);
+        stackB = stackB->next;
+    }
+
+
+    return (0);
 }

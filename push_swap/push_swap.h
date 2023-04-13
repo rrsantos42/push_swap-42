@@ -7,32 +7,23 @@
 #include <fcntl.h>
 #include "libft/libft.h"
 
-typedef struct s_listA
+
+typedef struct s_Stack
 {
     int			value;
-    struct s_listA	*next;
-    struct s_listA	*preview;
-}	t_listA;
-typedef struct s_listB
-{
-    int			value;
-    struct s_listB	*next;
-    struct s_listB	*preview;
-}	t_listB;
+    struct s_Stack *head;
+    struct s_Stack	*next;
+
+}	t_Stack;
+
 
 int main(int ac, char** av);
-void createlist(int size, t_listA** stackA, char** values);
-int issorted(t_listA** stackA);
-void organiozelstA(t_listA** stackA);
-void organiozelstB(t_listB** stackB);
-void    sa(t_listA** stackA);
-void    sb(t_listB** stackB);
-void pa(t_listA** stackA, t_listB** stackB);
-void pb(t_listA** stackA, t_listB** stackB);
-void deletenodeA(t_listA** stackA);
-void deletenodeB(t_listB** stackB);
-void addnodeA(t_listA** stackA, int value);
-void addnodeB(t_listB** stackB, int value);
-
-
+void pb(t_Stack **stacka, t_Stack **stackb);
+void pa(t_Stack **stacka, t_Stack **stackb);
+void sa(t_Stack **stack, int flag);
+void sb(t_Stack **stack, int flag);
+void    ss(t_Stack **stacka, t_Stack **stackb);
+void ra(t_Stack **stack, int flag);
+void rb(t_Stack **stack, int flag);
+void    rr(t_Stack **stacka, t_Stack **stackb);
 #endif

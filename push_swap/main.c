@@ -15,27 +15,39 @@
 
 int main(int ac, char** av)
 {
-    t_listA *stackA;
-    t_listB *stackB;
+    t_Stack *stacka;
+    t_Stack *stackb;
+    t_Stack *temp;
 
-    stackB = malloc(sizeof (t_listB));
-    stackA = malloc(sizeof (t_listA));
-    stackA->preview = NULL;
-    createlist(ac, &stackA, av);
-
-    organiozelstA(&stackA);
-    organiozelstB(&stackB);
-    while (stackA->next)
+    int i;
+    i = 2;
+    stacka = malloc(sizeof (t_Stack));
+    stackb = malloc(sizeof (t_Stack));
+    stackb->next = NULL;
+    stacka->head = NULL;
+    stacka->head = stacka;
+    stacka->value = ft_atoi(av[1]);
+    while (i < ac)
     {
-        printf("stack A->%d\n", stackA->value);
-        stackA = stackA->next;
+        stacka->next = malloc(sizeof (t_Stack));
+        stacka->next->value = ft_atoi(av[i]);
+        stacka->next->head = stacka->head;
+        stacka = stacka->next;
+        stacka->next = NULL;
+        i++;
     }
-    while (stackB->next)
+
+    temp = stacka->head;
+    while (temp)
     {
-        printf("stack B->%d\n", stackB->value);
-        stackB = stackB->next;
+        printf("stack A->%d\n", temp->value);
+        temp = temp->next;
     }
-
-
+    temp = stackb->head;
+    while (temp)
+    {
+        printf("stack b->%d\n", temp->value);
+        temp = temp->next;
+    }
     return (0);
 }

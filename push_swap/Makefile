@@ -2,13 +2,13 @@ NAME	= push_swap
 
 HEADER	= push_swap.h
 
-SRCS 	= $(wildcard *c) $(wildcard utilitis/*c)
+SRCS 	= $(wildcard *c)
 
 OBJS	= $(SRCS:c=o)
 
 CC		= gcc
 
-CFLAGS	=
+CFLAGS	= -g -O0
 RM		= rm -f
 
 LIBFT 	= libft/libft.a

@@ -1,28 +1,33 @@
 #include "push_swap.h"
 
-void    sa(t_listA** stackA)
+void sa(t_Stack **stack, int flag)
 {
-    int x;
-    organiozelstA(&(*stackA));
-    x = (*stackA)->value;
-    (*stackA)->value = (*stackA)->next->value;
-    (*stackA)->next->value = x;
-    ft_putstr_fd("sa\n", 1);
+    t_Stack *temp;
+    t_Stack *temp2;
+    temp2 = (*stack)->head->next->next;
+    temp = (*stack)->head;
+    (*stack)->head = (*stack)->head->next;
+    (*stack)->head->next = temp;
+    (*stack)->head->next->next = temp2;
+    if(flag)
+        ft_putstr_fd("sa\n", 1);}
+
+void sb(t_Stack **stack, int flag)
+{
+    t_Stack *temp;
+    t_Stack *temp2;
+    temp2 = (*stack)->head->next->next;
+    temp = (*stack)->head;
+    (*stack)->head = (*stack)->head->next;
+    (*stack)->head->next = temp;
+    (*stack)->head->next->next = temp2;
+    if(flag)
+        ft_putstr_fd("sb\n", 1);
 }
 
-void    sb(t_listB** stackB)
+void    ss(t_Stack **stacka, t_Stack **stackb)
 {
-    int x;
-
-    organiozelstB(&(*stackB));
-    x = (*stackB)->value;
-    (*stackB)->value = (*stackB)->next->value;
-    (*stackB)->next->value = x;
-    ft_putstr_fd("sa\n", 1);
-}
-
-void ss(t_listA** stackA, t_listB** stackB)
-{
-    sa(&(*stackA));
-    sb(&(*stackB));
+    sa(stacka, 0);
+    sb(stackb, 0);
+    ft_putstr_fd("sb\n", 1);
 }

@@ -1,21 +1,23 @@
 #include "push_swap.h"
 
-void pa(t_listA** stackA, t_listB** stackB)
+void pb(t_Stack **stacka, t_Stack **stackb)
 {
-    organiozelstA(&(*stackA));
-    organiozelstB(&(*stackB));
-    addnodeA(&(*stackA), (*stackB)->value);
-    deletenodeB(&(*stackB));
-    (*stackA)->next->preview = (*stackA);
-}
+    t_Stack *temp;
+    temp = (*stackb)->head;
+    (*stackb)->head = (*stacka)->head;
+    (*stacka)->head = (*stacka)->head->next;
+    (*stackb)->head->next = temp;
+    ft_putstr_fd("pb\n", 1);
 
-void pb(t_listA** stackA, t_listB** stackB)
-{
-    organiozelstA(&(*stackA));
-    organiozelstB(&(*stackB));
-    addnodeB(&(*stackB), (*stackA)->value);
-    deletenodeA(&(*stackA));
-    (*stackB)->next->preview = (*stackB);
 
 }
+void pa(t_Stack **stacka, t_Stack **stackb)
+{
+    t_Stack *temp;
+    temp = (*stacka)->head;
+    (*stacka)->head = (*stackb)->head;
+    (*stackb)->head = (*stackb)->head->next;
+    (*stacka)->head->next = temp;
+    ft_putstr_fd("pa\n", 1);
 
+}

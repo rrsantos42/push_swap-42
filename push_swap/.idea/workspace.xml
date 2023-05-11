@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="push_swap" targetName="all" />
+      <config projectName="push_swap" targetName="fclean" />
+      <config projectName="push_swap" targetName="re" />
+      <config projectName="push_swap" targetName="push_swap" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-MinGW" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" GENERATION_OPTIONS="-G &quot;MinGW Makefiles&quot; -DCMAKE_BUILD_TYPE-Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23e6b8a5-5791-42de-ad06-ba9a7deffabe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Createlist.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idksomealgo/average.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idksomealgo/bigalgo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idksomealgo/findSmall.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idksomealgo/isOrganized.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idksomealgo/smallinputs.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pm.c" beforeDir="false" afterPath="$PROJECT_DIR$/pm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rm.c" beforeDir="false" afterPath="$PROJECT_DIR$/rm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm.c" beforeDir="false" afterPath="$PROJECT_DIR$/sm.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="Make.Settings">
+    <option name="path" value="\\wsl$\Ubuntu\usr\bin\make" />
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="toolchainName" value="WSL" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="push_swap" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="push_swap" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.1" />
+  </component>
+  <component name="ProjectId" id="2OBsXoPuaDeOHM517oGXxrC72MB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/anara/repos/push_swap-42/push_swap",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Makefile Application.push_swap">
+    <configuration name="fclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap" TARGET_NAME="fclean" CONFIG_NAME="fclean" version="1" RUN_PATH="$PROJECT_DIR$/Makefile">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="push_swap" type="CLionNativeAppRunConfigurationType" PROGRAM_PARAMS="2 1 3 4 6 5 7 8 10 9" REDIRECT_INPUT="false" ELEVATE="true" USE_EXTERNAL_CONSOLE="true" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap" TARGET_NAME="push_swap" CONFIG_NAME="push_swap" version="1" RUN_PATH="$PROJECT_DIR$/push_swap">
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="false" run_configuration_name="re" run_configuration_type="MAKEFILE_TARGET_RUN_CONFIGURATION" />
+      </method>
+    </configuration>
+    <configuration name="re" type="CLionNativeAppRunConfigurationType" PROGRAM_PARAMS="4 3 2 1 5 6 7 8" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap" TARGET_NAME="re" CONFIG_NAME="re" version="1" RUN_PATH="./push_swap">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runn" type="CLionNativeAppRunConfigurationType" singleton="false" PROGRAM_PARAMS="1 2 3 4" REDIRECT_INPUT="true" ELEVATE="true" USE_EXTERNAL_CONSOLE="true" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap" TARGET_NAME="push_swap" CONFIG_NAME="push_swap" version="1" RUN_PATH="$PROJECT_DIR$/push_swap">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="C:\Users\anara\repos\push_swap-42\push_swap\Makefile" target="all" workingDirectory="C:\Users\anara\repos\push_swap-42\push_swap" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="clean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="clean" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="fclean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="fclean" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="r" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="r" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="re" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="re" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Makefile Application.fclean" />
+      <item itemvalue="Makefile Application.push_swap" />
+      <item itemvalue="Makefile Application.re" />
+      <item itemvalue="Makefile Application.runn" />
+      <item itemvalue="Makefile Target.re" />
+      <item itemvalue="Makefile Target.all" />
+      <item itemvalue="Makefile Target.all (1)" />
+      <item itemvalue="Makefile Target.clean" />
+      <item itemvalue="Makefile Target.fclean" />
+      <item itemvalue="Makefile Target.r" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.r" />
+        <item itemvalue="Makefile Target.all (1)" />
+        <item itemvalue="Makefile Target.fclean" />
+        <item itemvalue="Makefile Target.clean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23e6b8a5-5791-42de-ad06-ba9a7deffabe" name="Changes" comment="" />
+      <created>1681045354478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681045354478</updated>
+      <workItem from="1681045354630" duration="977000" />
+      <workItem from="1681051091296" duration="225000" />
+      <workItem from="1681051328358" duration="1298000" />
+      <workItem from="1681052649159" duration="235000" />
+      <workItem from="1681052903994" duration="42000" />
+      <workItem from="1681052993502" duration="20508000" />
+      <workItem from="1681241662995" duration="106000" />
+      <workItem from="1681314868996" duration="18027000" />
+      <workItem from="1681401749017" duration="545000" />
+      <workItem from="1681403505484" duration="19000" />
+      <workItem from="1681403583663" duration="167000" />
+      <workItem from="1681404182701" duration="99000" />
+      <workItem from="1681404294403" duration="39000" />
+      <workItem from="1681404603046" duration="989000" />
+      <workItem from="1681405636007" duration="94000" />
+      <workItem from="1681405775440" duration="54000" />
+      <workItem from="1681405875839" duration="26000" />
+      <workItem from="1681405909606" duration="1084000" />
+      <workItem from="1681416148103" duration="4755000" />
+      <workItem from="1683148430210" duration="55000" />
+      <workItem from="1683149058879" duration="1095000" />
+      <workItem from="1683564248715" duration="6344000" />
+      <workItem from="1683649633340" duration="7240000" />
+      <workItem from="1683732114909" duration="8010000" />
+      <workItem from="1683832488178" duration="11880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+        <breakpoint enabled="true" type="CidrExceptionBreakpoint" />
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CLionNativeAppRunConfigurationType">
+        <watch expression="stackA-&gt;next-&gt;next" />
+        <watch expression="stackA-&gt;next-&gt;next" language="ObjectiveC" />
+        <watch expression="stackA" />
+        <watch expression="stackA-&gt;*stackA-&gt;preview-&gt;preview-&gt;value" />
+        <watch expression="stackB-&gt;*stackB" />
+        <watch expression="stackB-&gt;*stackB" />
+        <watch expression="stackB-&gt;*stackB" />
+        <watch expression="stackB-&gt;*stackB" />
+        <watch expression="stackB-&gt;*stackB" />
+        <watch expression="stackB-&gt;*stackB-&gt;next-&gt;next-&gt;next-&gt;value" />
+        <watch expression="stackB" language="ObjectiveC" />
+        <watch expression="stackB" />
+        <watch expression="stackB" />
+        <watch expression="stackB-&gt;*stackB" />
+        <watch expression="nei" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

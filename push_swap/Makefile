@@ -2,13 +2,13 @@ NAME	= push_swap
 
 HEADER	= push_swap.h
 
-SRCS 	= $(wildcard *c)
+SRCS 	= $(wildcard *c) $(wildcard idksomealgo/*c)
 
 OBJS	= $(SRCS:c=o)
 
 CC		= gcc
 
-CFLAGS	= -g -O0
+CFLAGS	= -fsanitize=address -g -ggdb
 RM		= rm -f
 
 LIBFT 	= libft/libft.a
@@ -33,4 +33,6 @@ fclean: clean
 
 re: fclean all
 
+r:
+	make re && make clean && clear && ./push_swap 1 2 3 4
 .PHONY: all clean fclean re

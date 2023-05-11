@@ -18,36 +18,44 @@ int main(int ac, char** av)
     t_Stack *stacka;
     t_Stack *stackb;
     t_Stack *temp;
-
-    int i;
-    i = 2;
-    stacka = malloc(sizeof (t_Stack));
-    stackb = malloc(sizeof (t_Stack));
-    stackb->next = NULL;
-    stacka->head = NULL;
-    stacka->head = stacka;
-    stacka->value = ft_atoi(av[1]);
-    while (i < ac)
+    CheackValues(av, ac);
+    stacka = Makelist(av, ac);
+    if(!(CheackSameValues(&stacka)))
     {
-        stacka->next = malloc(sizeof (t_Stack));
-        stacka->next->value = ft_atoi(av[i]);
-        stacka->next->head = stacka->head;
-        stacka = stacka->next;
-        stacka->next = NULL;
-        i++;
+        printf("equal values\n");
+        FreeList(&stacka);
+        return (0);
     }
-
-    temp = stacka->head;
+    stackb = NULL;
+    if(isOrganized(&stacka))
+    {
+        ft_putstr_fd("its organized\n", 1);
+        FreeList(&stacka);
+        return (0);
+    }
+    if(ac == 3)
+        twoInputs(&stacka);
+    if(ac == 4)
+        threeInputs(&stacka);
+    if(ac == 5)
+        fourInputs(&stacka, &stackb);
+    if(ac > 5 && ac <7)
+        FiveInputs(&stacka, &stackb);
+    else
+        mainAlgo(&stacka, &stackb);
+    temp = stacka;
     while (temp)
     {
         printf("stack A->%d\n", temp->value);
         temp = temp->next;
     }
-    temp = stackb->head;
+    temp = stackb;
     while (temp)
     {
         printf("stack b->%d\n", temp->value);
         temp = temp->next;
     }
+    printf("is organized->%d\n", isOrganized(&stacka));
+    FreeList(&stacka);
     return (0);
 }

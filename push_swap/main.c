@@ -17,7 +17,6 @@ int main(int ac, char** av)
 {
     t_Stack *stacka;
     t_Stack *stackb;
-    t_Stack *temp;
     CheackValues(av, ac);
     stacka = Makelist(av, ac);
     if(!(CheackSameValues(&stacka)))
@@ -33,29 +32,17 @@ int main(int ac, char** av)
         FreeList(&stacka);
         return (0);
     }
+    stack_index(&stacka);
     if(ac == 3)
         twoInputs(&stacka);
     if(ac == 4)
         threeInputs(&stacka);
     if(ac == 5)
         fourInputs(&stacka, &stackb);
-    if(ac > 5 && ac <7)
+    if(ac > 5 && ac < 7)
         FiveInputs(&stacka, &stackb);
     else
-        mainAlgo(&stacka, &stackb);
-    temp = stacka;
-    while (temp)
-    {
-        printf("stack A->%d\n", temp->value);
-        temp = temp->next;
-    }
-    temp = stackb;
-    while (temp)
-    {
-        printf("stack b->%d\n", temp->value);
-        temp = temp->next;
-    }
-    printf("is organized->%d\n", isOrganized(&stacka));
+      radix_sort(&stacka, &stackb);
     FreeList(&stacka);
     return (0);
 }

@@ -12,6 +12,7 @@
 typedef struct s_Stack
 {
     int			value;
+    int         i;
     struct s_Stack	*next;
 
 }	t_Stack;
@@ -40,11 +41,14 @@ int CheackSameValues(t_Stack **list);
 void Tinputs(t_Stack **stacka,t_Stack **stackb);
 void FiveInputs(t_Stack **stacka, t_Stack **stackb);
 t_Stack *findSmall(t_Stack **list);
-void mainAlgo(t_Stack **stacka, t_Stack **stackb);
+static int	get_max_bits(t_Stack **stack);
+void	radix_sort(t_Stack **stack_a, t_Stack **stack_b);
 int MakeAverage(t_Stack **stacka);
-int size(t_Stack **stacka);
-void check_nei(t_Stack **stacka, t_Stack **stackb);
-int closest(t_Stack **stacka, t_Stack **stackb);
-int ishalf(t_Stack **stacka);
+int ft_size(t_Stack **stacka);
+int ishalf(t_Stack **stacka, int value);
+int indexlist(t_Stack **stack, int value);
+void printlist(t_Stack **stacka, t_Stack **stackb);
+t_Stack *findbig(t_Stack **stacka);
+void stack_index(t_Stack **stack);
 
 #endif

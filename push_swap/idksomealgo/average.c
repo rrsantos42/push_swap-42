@@ -17,18 +17,3 @@ int MakeAverage(t_Stack **stacka)
     }
     return (result / size);
 }
-
-int size(t_Stack **stacka)
-{
-    int size;
-    t_Stack *temp;
-
-    temp = (*stacka);
-    size = 0;
-    while (temp)
-    {
-        size++;
-        temp = temp->next;
-    }
-    return (size);
-}

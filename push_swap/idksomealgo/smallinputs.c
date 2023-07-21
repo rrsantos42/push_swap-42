@@ -2,6 +2,8 @@
 
 void twoInputs(t_Stack **list)
 {
+    if(isOrganized(list))
+        return ;
         ra(list, 1);
 }
 
